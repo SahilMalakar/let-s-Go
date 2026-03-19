@@ -16,14 +16,14 @@ func main(){
 	fmt.Println((7.0/3.0)) // 2.3
 	// Extra brackets not required
 	
-	fmt.Println(7/3) // 2 
+	fmt.Println(7/3) //-----> 2 
 	// Both numbers are int
 	// Go removes decimal part (no rounding)
 
-	fmt.Println(1 + 2.5) // ❌ Error (int + float64 not allowed)
+	// fmt.Println(1 + 2.5) // ❌ Error (int + float64 not allowed)
 	
-	//Are float64 by default, not float32.
-	//This is important later when working with math functions.
+	// Are float64 by default, not float32.
+	// This is important later when working with math functions.
 }
 
 

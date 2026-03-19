@@ -5,7 +5,7 @@ import (
 	"maps" // Go 1.21+ utility package for comparing maps
 )
 
-// Map = built-in reference type (hash table / dictionary)
+// Map = built-in reference type (hash table / dictionary / objects)
 func main() {
 
 	// --- Creating a map ---

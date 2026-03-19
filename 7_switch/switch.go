@@ -67,6 +67,7 @@ func main() {
 
 	
     // 	Go uses:
-    // "double quotes" → string
+    // "double quotes" → string (supports escapes like \n)
     // 'single quotes' → rune (single character, Unicode)
+	// `Backtick ` → 	Raw String (multi-line, no escapes interpreted)
 }
